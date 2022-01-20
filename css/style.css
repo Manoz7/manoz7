@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+/* Sidebar */
+.sidebar{
+    position: absolute;
+    background-color: rgb(202, 192, 192);
+    /* width: 150px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px; 
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Content */
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+/* Hamburger */
+.hamburger{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    
+}
+
+.ham{
+    cursor: pointer;
+}
+
+.cross{
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.sidebarGo{
+    transform:translate(-140px, 0);
+    position: absolute;
+}
+
+.infoContainer{
+    /* background-color: turquoise; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px 99px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 2rem;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.name span{
+    color: rgb(36, 107, 104);
+    animation: color-change 1s infinite;
+}
+
+
+  
+@keyframes color-change {
+    0% { color: red; }
+    25% {color: sienna;}
+    50% { color: blue; }
+    100% { color: red; }
+  }
+
+.about{
+    font-size: 1.2rem;
+}
+
+.moreabout{
+    font-size: 1.1rem;
+    font-family: 'Fira Sans', sans-serif;
+    width: 90%;
+    margin-top: 10px;
+
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.btn{
+    padding: 9px 10px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    margin: 0 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+    transition: 0.5s all ease-out;
+}
+
+.btn-sm{
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+
+.devPic img{
+    height: 58vh;
+}
+
+
+/* Contact Html */
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 15px;
+    padding-top: 100px;
+    margin: 88px;
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.contactform form div{
+    padding: 10px 0 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div .form-control{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+    
+}
+
+.contactform form .form-check{
+    flex-direction: row;
+    padding-bottom: 10px;
+    
+}
+.contactform form .form-check-input{
+    margin: 4px 5px 0 0;
+}
+
+.contactform #emailHelp{
+    font-size: 0.752rem;
+    color: midnightblue;
+    margin-inline: 10px;
+}
+
+
+
+/* Blog HTML CSS */
+.blogContainer{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 88px;
+    margin-top: 20px;
+
+}
+.blogContainer h1{
+    margin: 20px;
+
+}
+
+.blogItem{
+    margin: 20px;
+
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 10px;
+}
+
+/* MyIntro HTML */
+.aboutMe{
+    margin-left: 88px;
+    margin-top: 20px;
+}
+.aboutMe h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+
+}
+
+.aboutMe p{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+
+}
+
+.skillItem{
+    margin-left: 25px;
+    width: 300px;
+    background-color: rgb(241, 228, 228);
+    height: 19px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: rgb(26, 2, 65);
+    text-align: center;
+
+
+
+}
+
+
+
+.skillContainer{
+    margin-left: 50px;
+}
+.skillContainer span{
+    margin: 10px;
+    display: flex;
+    
+}
+
+.skill{
+    height: 19px;
+}
+
+/* For Bars */
+
+.t100{
+    /* width: 300px; */
+    background-color: rgb(74, 74, 233);
+    border-radius: 20px;
+
+}
+.t75{
+    width: 225px;
+    border-radius: 20px;
+    background-color: rgb(80, 218, 211);
+}
+.t50{
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(85, 219, 179);
+}
+
+/* Project Card */
+.projectContainer{
+    display: flex;
+}
+
+.card{
+    border: 1px solid rgb(87, 85, 85);   
+    padding: 15px;
+    margin: 10px;
+    width: 33%;
+}
+
+
+.card-body{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.card-title{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 0 0 10px;
+}
+
+.card-text{
+    line-height: 1.5;
+}
+
+.card-btn{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.card-img-top{
+    display: block;
+    width: 120px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width:928px) {
+    .infoContainer, .contactform, .aboutMe, .blogContainer{
+        margin-left: 8px;
+    }
+
+    .blogContainer{
+        margin-top: 40px;
+    }
+    .projectContainer{
+        flex-direction: column;
+    }
+    .card{
+        margin: 10px 0;
+        width: 100%;
+
+    }
+    .skillContainer{
+        margin-left: 5px;
+    }
+
+    .infoContainer{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .infoContainer .devPic img{
+        height: 15vh;
+        border-radius: 200%;
+        border: 1px solid green;
+        box-shadow: green;
+    }
+
+    .contactform{
+        padding: 0%;
+    }
+    .contactform h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .contactform form div .form-control{
+        width: 62vw;
+    }
+    .contactform #emailHelp{
+        margin-inline: 5px;
+    }
+
+    .moreabout, .about{
+        font-size: 1rem;
+    }
+}
