@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # 💫 About Me:
-✨ Always curious. Always building.<br>I’m a Computer Science graduate student at Texas State University, Round Rock, with hands-on experience as a Full Stack Web Developer. I enjoy turning ideas into solutions—whether it’s building scalable web applications, solving tricky problems, or collaborating across teams.<br><br>🔹 Skilled in Python, Django, Java, REST APIs, SQL, Docker, and modern web technologies.<br>🔹 Experienced in agile projects, client-focused web applications, and cross-functional teamwork.<br>🔹 Adaptable, energetic, and always eager to learn something new.<br><br>If you’ve got an exciting project in mind—or just fancy a chat about cricket, football, or technology—drop me an email at manojkhanal936@gmail.com <br><br>Let’s build something great together <br>
+✨ Always curious. Always building.<br>I’m a Computer Science graduate student at Texas State University, Round Rock, with hands-on experience as a Full Stack Web Developer. I enjoy turning ideas into solutions—whether it’s building scalable web applications, solving tricky problems, or collaborating across teams.<br><br>🔹 Skilled in Python, Django, Java, REST APIs, SQL, Docker, and modern web technologies.<br>🔹 Experienced in agile projects, client-focused web applications, and cross-functional teamwork.<br>🔹 Adaptable, energetic, and always eager to learn something new.<br><br><br>Let’s build something great together <br>
 - 💬 Ask me about Cricket, Football, or Technology.
 - 📫 How to reach me: _**manojkhanal936@gmail.com**_
 
